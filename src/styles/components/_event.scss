@@ -1,0 +1,32 @@
+.event__card {
+  max-width: 40rem;
+  margin: 1rem auto;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.event__title {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.event__option {
+  flex: 1;
+}
+
+.event__buttons {
+  margin: 1rem 0rem;
+  button:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+
+.event__buttons-active {
+  background-color: #1976d2 !important;
+  color: #fff !important;
+}
